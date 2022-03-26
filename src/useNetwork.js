@@ -25,7 +25,7 @@ function UseNetwork() {
   }
   const onLine = useNetwork(handleNetworkChange);
   return (
-    <div className="App">
+    <div>
       <h1>useNetwork</h1>
       <h3>{onLine ? "Online" : "Offline"}</h3>
     </div>

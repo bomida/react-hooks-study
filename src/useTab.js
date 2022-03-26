@@ -37,7 +37,7 @@ const useTabs = (initialTab, allTabs) => {
 function UseTabs() {
   const { currentItem, changeItem } = useTabs(0, content);
   return (
-    <div className="App">
+    <div>
       <h1>useTab</h1>
       {content.map((section, index) =>
         <button

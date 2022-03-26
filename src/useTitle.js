@@ -17,7 +17,7 @@ function UseTitle() {
   }, 3000);
 
   return (
-    <div className="App">
+    <div>
       <h1>useTitle</h1>
     </div>
   );

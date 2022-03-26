@@ -21,7 +21,7 @@ function UseFadeIn() {
   const fadeInH1 = useFadeIn(1, 2);
   const fadeInP = useFadeIn(2, 4);
   return (
-    <div className="App">
+    <div>
       <h1 {...fadeInH1}>useFadeIn</h1>
       <p {...fadeInP}>There are many variations of passages of Lorem Ipsum available, but the majority</p>
     </div>

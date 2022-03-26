@@ -1,5 +1,3 @@
-import './App.css';
-
 const usePreventLeave = () => {
   const listener = (event) => {
     event.preventDefault();
@@ -14,7 +12,7 @@ function App() {
   const { enablePreve, disablePreve } = usePreventLeave();
 
   return (
-    <div className="App">
+    <div>
       <h1>usePreventLeave</h1>
       <button onClick={enablePreve}>Protect</button>
       <button onClick={disablePreve}>Unprotect</button>

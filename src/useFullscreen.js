@@ -43,7 +43,7 @@ function UseFullscreen() {
   }
   const { element, triggerFull, exitFull } = useFullscreen(onFulls);
   return (
-    <div className="App">
+    <div>
       <h1>useFullscreen</h1>
       <div ref={element}>
         <img src='https://image.bugsm.co.kr/uniContent/banner/VDCMPHFJB44Y5OEVPZVT/list_mobile.jpg' alt='lalaland' />

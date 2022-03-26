@@ -22,7 +22,7 @@ function UseBeforeLeave() {
   const begForLife = () => console.log("Please don't leave");
   useBeforeLeave(begForLife);
   return (
-    <div className="App">
+    <div>
       <h1>useBeforeLeave</h1>
     </div>
   );

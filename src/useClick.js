@@ -25,7 +25,7 @@ function UseClick() {
   const title = useClick(sayHello);
 
   return (
-    <div className="App">
+    <div>
       <h1 ref={title}>useClick</h1>
     </div>
   );
